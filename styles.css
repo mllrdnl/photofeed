@@ -1,0 +1,54 @@
+body {
+    background: lightgray;
+    margin: 0;
+}
+
+.header {
+    background: white;
+    display: inline-block;
+    width: 100%;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: space-around;
+    flex-flow: wrap;
+    height: 100%;
+    width: 100%;
+}
+
+.box-one {
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    height: 600px;
+    background: white;
+    align-content: space-between;
+    justify-content: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.box-two {
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    height: 600px;
+    background: white;
+    align-content: center;
+    justify-content: center;
+}
+
+
+.box-three {
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    height: 600px;
+    background: white;
+    align-content: center;
+    justify-content: center;
+}
+

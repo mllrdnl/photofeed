@@ -8,6 +8,7 @@ body {
     background: white;
     display: inline-block;
     width: 100%;
+    padding: 10px 0;
 }
 
 .container {
@@ -19,16 +20,16 @@ body {
     display: flex;
     flex-direction: column;
     width: 600px;
-    height: 600px;
     background: white;
     align-content: space-between;
-    justify-content: center;
     margin: 40px auto;
   
 }
 
 img {
     width: 100%;
+    display: flex;
+    align-content: center;
 }
 
 h1 {
@@ -49,15 +50,16 @@ h1 {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    flex-grow: 0;
 }
 
 .description {
-    flex-grow: 0;
+    padding: 0 10px;
+    height: 100%;
+    display:flex;
 }
 
-.photo {
-    flex-grow: 1;
-    align-content: center;
+.desp {
+  align-self: flex-end;
 }
+
 
